@@ -1,0 +1,243 @@
+@charset "utf-8";
+@font-face {
+    font-family: precious;
+    src: url(precious.ttf) format('truetype');
+}
+@font-face {
+    font-family: Avara;
+    src: url(Avara.ttf) format('truetype');
+}
+@font-face {
+    font-family: Process;
+    src: url(Process-magenta.otf) format('opentype');
+}
+section{
+    padding-top: 50px;
+}
+a{
+    color: #0066cc;
+}
+.top{
+    width: 100%;
+}
+.top img{
+    width: 100%;
+}
+.apple_support{
+    text-align: center;
+}
+.apple_support h1{
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-size: 55px;
+    font-weight: 600;
+    padding: 30px;
+}
+.list1{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+.list1 dl{
+    padding: 0px 25px;
+}
+.list2{
+    padding: 50px;
+    justify-content: center;
+    display: flex;
+}
+.list2 dl{
+    border: none;
+    background-color: #fbfbfd;
+    border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    margin: 10px;
+    padding: 30px;
+    box-shadow: 3px 3px 20px rgb(209, 209, 209);
+}
+.search h2{
+    font-size: 2em;
+    padding: 20px;
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+}
+.searchbox{
+    padding: 10px;
+    width: 60%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid rgb(231, 231, 231);
+    font-size: 1.1em;
+}
+.below{
+    margin-top: 30px;
+    background-color: rgb(236, 236, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.below h2{
+    font-family:Arial, Helvetica, sans-serif ;
+    font-size: 2em;
+}
+.below h3{
+    font-size: 1.5em;
+}
+.below p{
+    color: rgb(77, 77, 77);
+}
+.support_video{
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height:460px;
+    border-radius: 10px;
+    text-align: center;
+}
+.two_supports{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.first_support{
+    flex: 70%;
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:455px;
+    border-radius: 10px;
+    text-align: center;
+}
+.second_support{
+    flex: 30%;
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height:455px;
+    border-radius: 10px;
+    text-align: center;
+}
+.my_support{
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height:150px;
+    border-radius: 10px;
+    text-align: center;
+}
+.applecare{
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height:430px;
+    border-radius: 10px;
+    text-align: center;
+}
+.apple_trade{
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height:430px;
+    border-radius: 10px;
+    text-align: center;
+}
+.safe{
+    padding: 10px;
+    margin: 20px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 60%;
+    height:150px;
+    border-radius: 10px;
+    text-align: center;
+}
+.two_beware{
+    display: flex;
+    width: 60%;
+}
+.first_b{
+    padding: 20px;
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    height:250px;
+    border-radius: 10px;
+}
+.second_b{
+    padding: 20px;
+    margin: 10px;
+    padding-top: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 30%;
+    height:250px;
+    border-radius: 10px;
+}
+.secondb_img{
+    width: 60px; 
+    height:60px
+}
+.service{
+height: 300px;
+padding-left: 300px;
+}
+.service ul{
+    list-style-type: none;
+    line-height: 1.5em;
+}
+.footer{
+    width: 60%;
+    margin: 0 auto;
+}
+@media screen and (max-width: 1024px){
+    section{
+        font-size: 0.6rem;
+    }
+    .below{
+        font-size: 0.6rem;
+    }
+    .support_video{
+        height: 270px;
+    }
+    .first_support{
+        height: 330px;
+    }
+    .second_support{
+        height: 330px;
+    }
+    .my_support{
+        height: 100px;
+    }
+    .applecare{
+        height: 270px;
+    }
+    .apple_trade{
+        height: 250px;
+    }
+    .safe{
+        height: 100px;
+    }
+    .first_b{
+        height: 200px;
+    }
+    .second_b{
+        height: 200px;
+    }
+    .second_b img{
+        width: 20px;
+        height: 20px;
+    }
+    .service{
+        height: 200px;
+        padding-left: 170px;
+    }
+}

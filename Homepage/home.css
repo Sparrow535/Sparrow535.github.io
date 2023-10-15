@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+.desp:first-child{
+    padding-top: 150px;
+}
+.desp s:first-of-type{
+    color: red;
+}
+.desp s:nth-of-type(2){
+    color: orange;
+}
+.card-1{
+    text-align: center;
+    color: white;
+    background-image: url(iPhone_15_pro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 650px;
+    z-index: -1;
+}
+.card-2{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(iPhone_15.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 600px;
+    z-index: -1;
+}
+.card-3{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url(Apple_watch.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 570px;
+    z-index: -1;
+}
+.card-4{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(Watch_2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    margin: 5px;
+}
+.card-5{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(Watch_3.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    margin: 5px;
+}    
+.card-6{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(MacBook_Air.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    z-index: -1;
+    margin: 5px;
+}
+.card-6 .desp{
+    position: relative;
+    top: 100px;
+}
+.card-7{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-image: url(Airpods_Pro.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    margin: 5px;
+}
+.card-7 .desp{
+    position: relative;
+    top: 50px;
+}
+.card-8{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(Trade_in.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:550px;
+    margin: 5px;
+}
+.card-8 .desp{
+    position: relative;
+    top: 100px;
+}
+.card-9{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    background-image: url(Card.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 550px;
+    margin: 5px;
+    padding-bottom: 500px;
+}
+.full{
+    grid-template-columns: auto;
+    row-gap: 3px;
+}
+.half .row1{
+  display: flex;
+}
+.half .row2{
+  display: flex;
+}
+.half .row3{
+  display: flex;
+}
+@media screen and (max-width: 1024px){
+    .card-1{
+        height: 250px;
+        font-size: 0.5rem;
+    }
+    .card-2{
+        height: 250px;
+        font-size: 0.5rem;
+    }
+    .card-3{
+        height: 250px;
+        font-size: 0.5rem;
+    }
+    .card-4{
+        height: 250px;
+        font-size: 0.5rem;
+    }
+    .card-5{
+        height: 250px;
+        font-size: 0.5rem;
+    }
+    .card-6{
+        height: auto;
+        font-size: 0.5rem;
+    }
+    .card_7{
+        height: auto;
+        font-size: 0.5rem;
+    }
+    .row3{
+        position: relative;
+        bottom: 240px;
+    }
+    .card-8{
+        height: auto;
+        font-size: 0.5rem;
+    }
+    .card-9{
+        height: auto;
+        font-size: 0.5rem;
+    }
+    .lastpic{
+        position: relative;
+        bottom: 660px;
+    }
+    .footer{
+        position: relative;
+        bottom: 600px;
+    }
+}
